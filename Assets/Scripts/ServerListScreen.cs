@@ -36,13 +36,13 @@ public class ServerListScreen : mScreen, IActionListener
     private static readonly string ipTCP = txtIP;
     public static string smartPhoneVN = ipTCP;
     public static string javaVN = smartPhoneVN;
-    public static string smartPhoneIn = "Naga:dragon.indonaga.com:14446:2,2,0";
+    public static string smartPhoneIn = txtIP;
     public static string smartPhoneJJ = "http://ngocthack.bio.link/";
-    public static string javaIn = "Naga:52.74.230.22:14446:2,2,0";
+    public static string javaIn = txtIP;
 
-    public static string smartPhoneE = "Universe 1:dragon.indonaga.com:14445:1,1,0";
+    public static string smartPhoneE = txtIP;
 
-    public static string javaE = "Universe 1:52.74.230.22:14445:1,1,0";
+    public static string javaE = txtIP;
 
     public static string linkGetHost = "http://sv1.ngocrongonline.com/game/ngocrong031_t.php";
 
@@ -319,7 +319,7 @@ public class ServerListScreen : mScreen, IActionListener
     private int index;
     public override void paint(mGraphics g)
     {
-       
+
         int num = 105;
         if (!loadScreen)
         {
